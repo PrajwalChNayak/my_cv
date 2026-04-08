@@ -1,160 +1,74 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prajwal Changeyan – Full Stack JavaScript Developer</title>
-  <meta name="description" content="Resume of Prajwal Changeyan, Full Stack JavaScript Developer with 5 years of experience." />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    @media print {
-      .no-print { display: none !important; }
-      body { background: white !important; }
-      .page-wrapper { box-shadow: none !important; margin: 0 !important; border-radius: 0 !important; }
-    }
-  </style>
-</head>
-<body class="bg-gray-100 font-sans text-gray-700 antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prajwal Chandra Nayak – Full Stack JavaScript Developer</title>
+    <meta
+      name="description"
+      content="Resume of Prajwal Chandra Nayak, Full Stack JavaScript Developer with 5 years of experience."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .print-only {
+        display: none;
+      }
 
-  <div class="page-wrapper max-w-3xl mx-auto my-10 bg-white rounded-lg shadow-md overflow-hidden">
+      @media print {
+        .print-only {
+          display: inline !important;
+        }
 
-    <!-- Download Button Bar -->
-    <div class="no-print flex justify-end px-10 py-4 border-b border-gray-200 bg-white">
-      <button
-        onclick="window.print()"
-        class="inline-flex items-center gap-2 px-6 py-2.5 bg-blue-900 text-white text-sm font-semibold rounded-md hover:bg-blue-950 transition-colors cursor-pointer"
+        .no-print {
+          display: none !important;
+        }
+        body {
+          background: white !important;
+        }
+        .page-wrapper {
+          box-shadow: none !important;
+          margin: 0 !important;
+          border-radius: 0 !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 font-sans text-gray-700 antialiased">
+    <div
+      class="page-wrapper max-w-3xl mx-auto my-10 bg-white rounded-lg shadow-md overflow-hidden"
+    >
+      <!-- Download Button Bar -->
+      <div
+        class="no-print flex justify-end px-10 py-4 border-b border-gray-200 bg-white"
       >
-        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M5 20h14v-2H5v2zm7-18v12.17l3.59-3.58L17 12l-5 5-5-5 1.41-1.41L12 14.17V2z"/>
-        </svg>
-        Download / Print CV
-      </button>
+        <button
+          onclick="window.print()"
+          class="inline-flex items-center gap-2 px-6 py-2.5 bg-blue-900 text-white text-sm font-semibold rounded-md hover:bg-blue-950 transition-colors cursor-pointer"
+        >
+          <svg
+            class="w-4 h-4 fill-current"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path
+              d="M5 20h14v-2H5v2zm7-18v12.17l3.59-3.58L17 12l-5 5-5-5 1.41-1.41L12 14.17V2z"
+            />
+          </svg>
+          Download / Print CV
+        </button>
+      </div>
+
+      <div
+        class="no-print px-10 py-4 bg-blue-50 text-blue-900 text-sm border-b border-gray-200"
+      >
+        Note: The phone number is hidden in the browser preview and will appear
+        when you download or print the CV.
+      </div>
+
+      <!-- Resume Content -->
+      <main id="resume-root" class="px-10 py-8"></main>
     </div>
 
-    <!-- Resume Content -->
-    <main class="px-10 py-8">
-
-      <!-- Header -->
-      <header class="flex items-center gap-7 pb-7 border-b-2 border-blue-950 mb-7">
-        <img
-          class="w-28 h-28 rounded-full object-cover border-2 border-gray-200 shrink-0"
-          src="profile.jpg"
-          alt="Photo of Prajwal Changeyan"
-          width="110"
-          height="110"
-        />
-        <div>
-          <h1 class="text-3xl font-bold text-blue-950 leading-tight mb-1">Prajwal Changeyan</h1>
-          <p class="text-lg text-blue-800 font-medium mb-2">Full Stack JavaScript Developer</p>
-          <address class="not-italic flex flex-wrap gap-x-5 gap-y-1 text-sm text-gray-500">
-            <span>✉ <a href="mailto:prajwalch@gmail.com" class="text-blue-700 hover:underline">prajwalch@gmail.com</a></span>
-            <span>☎ +91 88373904747</span>
-            <span>⚑ Cuttack, Nua Gram, Odisha – 754003, India</span>
-          </address>
-        </div>
-      </header>
-
-      <!-- Professional Summary -->
-      <section class="mb-6">
-        <h2 class="text-base font-bold text-blue-950 uppercase tracking-wide pb-1.5 border-b border-gray-200 mb-3">Professional Summary</h2>
-        <p class="text-sm leading-relaxed">
-          Software developer with <strong>5 years of experience</strong> specializing in the JavaScript ecosystem.
-          Experienced in building scalable web and mobile applications using modern frameworks and backend architectures.
-          Proficient in delivering end-to-end solutions from UI development to API design and database management.
-        </p>
-      </section>
-
-      <!-- Technical Skills -->
-      <section class="mb-6">
-        <h2 class="text-base font-bold text-blue-950 uppercase tracking-wide pb-1.5 border-b border-gray-200 mb-3">Technical Skills</h2>
-        <dl class="grid grid-cols-[140px_1fr] gap-x-4 gap-y-2 text-sm">
-          <dt class="font-semibold text-blue-950">Frontend</dt>
-          <dd>React.js, Next.js, React Native</dd>
-          <dt class="font-semibold text-blue-950">Backend</dt>
-          <dd>Node.js, NestJS</dd>
-          <dt class="font-semibold text-blue-950">Languages</dt>
-          <dd>JavaScript, TypeScript</dd>
-          <dt class="font-semibold text-blue-950">Databases</dt>
-          <dd>SQL, NoSQL</dd>
-          <dt class="font-semibold text-blue-950">Other</dt>
-          <dd>REST APIs, Full Stack Development</dd>
-        </dl>
-      </section>
-
-      <!-- Experience -->
-      <section class="mb-6">
-        <h2 class="text-base font-bold text-blue-950 uppercase tracking-wide pb-1.5 border-b border-gray-200 mb-3">Experience</h2>
-
-        <article class="mb-5">
-          <div class="flex justify-between items-baseline flex-wrap gap-1 mb-0.5">
-            <h3 class="text-base font-semibold text-blue-950">Senior Full Stack Developer</h3>
-            <span class="text-xs text-gray-500 whitespace-nowrap">Jan 2023 – Present</span>
-          </div>
-          <p class="text-sm text-blue-700 font-medium mb-1.5">Company Name · Location</p>
-          <ul class="list-disc pl-5 text-sm space-y-1">
-            <li>Developed and maintained scalable web applications using React.js and Node.js.</li>
-            <li>Designed RESTful APIs with NestJS and integrated SQL/NoSQL databases.</li>
-            <li>Led code reviews and mentored junior developers on best practices.</li>
-          </ul>
-        </article>
-
-        <article>
-          <div class="flex justify-between items-baseline flex-wrap gap-1 mb-0.5">
-            <h3 class="text-base font-semibold text-blue-950">Full Stack Developer</h3>
-            <span class="text-xs text-gray-500 whitespace-nowrap">Jun 2021 – Dec 2022</span>
-          </div>
-          <p class="text-sm text-blue-700 font-medium mb-1.5">Company Name · Location</p>
-          <ul class="list-disc pl-5 text-sm space-y-1">
-            <li>Built cross-platform mobile apps with React Native and TypeScript.</li>
-            <li>Implemented server-side rendering with Next.js for improved SEO.</li>
-            <li>Collaborated with design and product teams in an Agile environment.</li>
-          </ul>
-        </article>
-      </section>
-
-      <!-- Projects -->
-      <section class="mb-6">
-        <h2 class="text-base font-bold text-blue-950 uppercase tracking-wide pb-1.5 border-b border-gray-200 mb-3">Projects</h2>
-
-        <article class="mb-5">
-          <div class="flex justify-between items-baseline flex-wrap gap-1 mb-0.5">
-            <h3 class="text-base font-semibold text-blue-950">Project Name</h3>
-            <span class="text-xs text-gray-500 whitespace-nowrap">2024</span>
-          </div>
-          <p class="text-sm text-blue-700 font-medium mb-1.5">React.js · Node.js · MongoDB</p>
-          <ul class="list-disc pl-5 text-sm space-y-1">
-            <li>Brief description of the project and its purpose.</li>
-            <li>Key technical achievements or metrics.</li>
-          </ul>
-        </article>
-
-        <article>
-          <div class="flex justify-between items-baseline flex-wrap gap-1 mb-0.5">
-            <h3 class="text-base font-semibold text-blue-950">Project Name</h3>
-            <span class="text-xs text-gray-500 whitespace-nowrap">2023</span>
-          </div>
-          <p class="text-sm text-blue-700 font-medium mb-1.5">Next.js · TypeScript · PostgreSQL</p>
-          <ul class="list-disc pl-5 text-sm space-y-1">
-            <li>Brief description of the project and its purpose.</li>
-            <li>Key technical achievements or metrics.</li>
-          </ul>
-        </article>
-      </section>
-
-      <!-- Education -->
-      <section>
-        <h2 class="text-base font-bold text-blue-950 uppercase tracking-wide pb-1.5 border-b border-gray-200 mb-3">Education</h2>
-        <article>
-          <div class="flex justify-between items-baseline flex-wrap gap-1 mb-0.5">
-            <h3 class="text-base font-semibold text-blue-950">Degree Name</h3>
-            <span class="text-xs text-gray-500 whitespace-nowrap">Year – Year</span>
-          </div>
-          <p class="text-sm text-blue-700 font-medium">University / Institution Name · Location</p>
-        </article>
-      </section>
-
-    </main>
-  </div>
-
-</body>
+    <script src="resume.js"></script>
+  </body>
 </html>
