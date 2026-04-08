@@ -10,7 +10,7 @@ const resumeData = {
     summary: "Software developer with 5 years of experience specializing in the JavaScript ecosystem. Experienced in building scalable web and mobile applications using modern frameworks and backend architectures. Proficient in delivering end-to-end solutions from UI development to API design and database management.",
     skills: [
         { label: "Frontend", items: "React.js, Next.js, React Native" },
-        { label: "Backend", items: "Node.js, NestJS" },
+        { label: "Backend", items: "Express.js, NestJS" },
         { label: "Languages", items: "JavaScript, TypeScript" },
         { label: "Databases", items: "SQL, NoSQL" },
         { label: "Other", items: "REST APIs, Full Stack Development" }
@@ -21,9 +21,10 @@ const resumeData = {
             date: "May 2024 – Present",
             company: "Gemini Consulting & Services · Bhubaneswar, Odisha",
             details: [
-                "Developed and maintained scalable web applications using React.js and Node.js.",
-                "Designed RESTful APIs with NestJS and integrated SQL/NoSQL databases.",
-                "Led code reviews and mentored junior developers on best practices."
+                "Developed and maintained scalable web and mobile applications using React.js, React Native, and Express.js.",
+                "Designed and implemented RESTful APIs using NestJS and integrated SQL and NoSQL databases.",
+                "Architected backend services, optimized application performance, and ensured scalable system design.",
+                "Led code reviews, mentored junior developers, and guided best practices in full-stack development."
             ]
         },
         {
@@ -31,20 +32,46 @@ const resumeData = {
             date: "January 2021 – April 2024",
             company: "Westech Technology Private Limited · Bhubaneswar, Odisha",
             details: [
-                "Built cross-platform mobile apps with React Native and TypeScript.",
-                "Implemented server-side rendering with Next.js for improved SEO.",
-                "Collaborated with design and product teams in an Agile environment."
+                "Developed cross-platform mobile applications using React Native and TypeScript.",
+                "Built dynamic web applications using React.js and Next.js with server-side rendering for improved SEO and performance.",
+                "Implemented backend APIs using Express.js and integrated relational and NoSQL databases.",
+                "Collaborated with product and design teams in Agile environments to deliver scalable features."
             ]
         }
     ],
     projects: [
         {
-            name: "Project Name",
-            date: "2024",
-            tech: "React.js · Node.js · MongoDB",
+            name: "HRMS & Accounting Management System",
+            date: "2026",
+            tech: "React.js · Express.js · MySQL",
             details: [
-                "Brief description of the project and its purpose.",
-                "Key technical achievements or metrics."
+                "Architected and developed a full-stack HRMS platform with integrated accounting features to manage employee data, payroll, attendance, and financial records.",
+                "Designed the backend system architecture, REST APIs, and relational database schema using Express.js and MySQL.",
+                "Built dynamic and responsive user interfaces with React.js, improving usability and workflow efficiency for HR and finance operations.",
+                "Implemented authentication, role-based access control, and optimized database queries to ensure secure and scalable system performance."
+            ]
+        },
+        {
+            name: "HMS (Hospital Management System)",
+            date: "2025",
+            tech: "Express.js · Express.js · MySQL",
+            details: [
+                "Developed backend services for a Hospital Management System to manage patient records, appointments, doctors, and billing workflows.",
+                "Implemented RESTful APIs using Express.js to support core hospital operations and ensure smooth data communication between frontend and backend.",
+                "Collaborated in designing the relational database schema and data models to handle patient, doctor, and treatment records efficiently.",
+                "Built scalable backend logic including authentication, data validation, and optimized database queries for reliable system performance."
+            ]
+        },
+        {
+            name: "Consumer & Call Records Management Dashboard",
+            date: "2026",
+            tech: "React.js · Express.js · MongoDB",
+            details: [
+                "Led the development of a dashboard platform to manage consumer data and call records with real-time reporting and analytics.",
+                "Designed the overall system architecture and implemented scalable backend APIs using Express.js for data management and reporting.",
+                "Built interactive dashboards using React.js to visualize consumer activity, call records, and operational reports.",
+                "Migrated and transformed legacy data into the new system, ensuring data integrity and optimized database performance.",
+                "Led the development process, mentored junior developers, and coordinated feature implementation across frontend and backend modules."
             ]
         },
         {
@@ -59,9 +86,14 @@ const resumeData = {
     ],
     education: [
         {
-            degree: "Degree Name",
-            date: "Year – Year",
-            institution: "University / Institution Name · Location"
+            degree: "MCA (Master of Computer Applications)",
+            date: "2018 – 2020",
+            institution: "OUAT / CPGS · Bhubaneswar, Odisha"
+        },
+        {
+            degree: "BCA (Bachelor of Computer Applications)",
+            date: "2015 – 2018",
+            institution: "Utkal University / IPSAR · Cuttack, Odisha"
         }
     ]
 };
