@@ -4,7 +4,7 @@ const resumeData = {
     profileImage: "profile.jpg",
     contact: {
         email: "prajwalchnayak@gmail.com",
-        phone: "+91 88373904747",
+        phone: "+91 9078154363",
         address: "Cuttack, Nuaga Gram, Odisha – 754003, India"
     },
     summary: "Software developer with 5 years of experience specializing in the JavaScript ecosystem. Experienced in building scalable web and mobile applications using modern frameworks and backend architectures. Proficient in delivering end-to-end solutions from UI development to API design and database management.",
@@ -19,7 +19,7 @@ const resumeData = {
         {
             role: "Senior Full Stack Developer",
             date: "May 2024 – Present",
-            company: "Gemini Consulting & Services · Bhubaneswar, Odisha",
+            company: "Westech Technology Private Limited · Bhubaneswar, Odisha",
             details: [
                 "Developed and maintained scalable web and mobile applications using React.js, React Native, and Express.js.",
                 "Designed and implemented RESTful APIs using NestJS and integrated SQL and NoSQL databases.",
@@ -30,7 +30,7 @@ const resumeData = {
         {
             role: "Full Stack Developer",
             date: "January 2021 – April 2024",
-            company: "Westech Technology Private Limited · Bhubaneswar, Odisha",
+            company: "Nucigent Technology · Bhubaneswar, Odisha",
             details: [
                 "Developed cross-platform mobile applications using React Native and TypeScript.",
                 "Built dynamic web applications using React.js and Next.js with server-side rendering for improved SEO and performance.",
@@ -54,7 +54,7 @@ const resumeData = {
         {
             name: "HMS (Hospital Management System)",
             date: "2025",
-            tech: "Express.js · Express.js · MySQL",
+            tech: "Express.js · MySQL",
             details: [
                 "Developed backend services for a Hospital Management System to manage patient records, appointments, doctors, and billing workflows.",
                 "Implemented RESTful APIs using Express.js to support core hospital operations and ensure smooth data communication between frontend and backend.",
@@ -64,7 +64,7 @@ const resumeData = {
         },
         {
             name: "Consumer & Call Records Management Dashboard",
-            date: "2026",
+            date: "2025",
             tech: "React.js · Express.js · MongoDB",
             details: [
                 "Led the development of a dashboard platform to manage consumer data and call records with real-time reporting and analytics.",
@@ -74,15 +74,15 @@ const resumeData = {
                 "Led the development process, mentored junior developers, and coordinated feature implementation across frontend and backend modules."
             ]
         },
-        {
-            name: "Project Name",
-            date: "2023",
-            tech: "Next.js · TypeScript · PostgreSQL",
-            details: [
-                "Brief description of the project and its purpose.",
-                "Key technical achievements or metrics."
-            ]
-        }
+        // {
+        //     name: "Project Name",
+        //     date: "2023",
+        //     tech: "Next.js · TypeScript · PostgreSQL",
+        //     details: [
+        //         "Brief description of the project and its purpose.",
+        //         "Key technical achievements or metrics."
+        //     ]
+        // }
     ],
     education: [
         {
